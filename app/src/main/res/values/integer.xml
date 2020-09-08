@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- 页面跳转动画时间-->
+    <integer name="anim_duration">200</integer>
+<!--    光盘转动时间-->
+    <integer name="play_music_anim_duration">10000</integer>
+<!-- 指针指向光盘动画时间   -->
+    <integer name="play_needle_anim_duration">600</integer>
+
+</resources>

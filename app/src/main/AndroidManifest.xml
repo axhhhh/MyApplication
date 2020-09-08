@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+<!--    &lt;!&ndash; Android 9.0 前台权限 &ndash;&gt;-->
+<!--    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />-->
+
+    <application
+        android:name=".MyApplication2"
+        android:allowBackup="true"
+
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".PlayMusicActivity"> </activity>
+        <activity android:name=".AlbumListActivity" />
+        <activity android:name=".ChangePasswordActivity" />
+        <activity android:name=".MeActivity" />
+        <activity android:name=".RegisterActivity" />
+
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
